@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/templete.css">
+    <title> Blue NetWork - Create</title>
+    <script src="https://kit.fontawesome.com/3661569a87.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section id="wallpaper">
+    <div class="container">
+        <div class="createAccount">
+            <div class="info">
+                <i class="fa-solid fa-circle-user"></i>
+                <h1>Criar uma conta!</h1>
+            </div>
+            <div class="formLogin">
+                <form action="login.html" method="POST">
+                    <p>Nome</p>
+                    <div class="inputIcons">
+                        <input type="text" name="name" placeholder="Digite seu nome">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <p>E-mail</p>
+                    <div class="inputIcons">
+                        <input type="email" name="email" placeholder="Digite seu e-mail">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="inputFlex">
+                        <div class="inputColunm">
+                            <p>Genero</p>
+                            <div class="inputIcons genero">
+                                <div class="type">
+                                    <input type="radio" name="genero" value="Masculino">
+                                    <span>Masculino</span>
+                                </div>
+                                <div class="type">
+                                    <input type="radio" name="genero" value="Masculino">
+                                    <span>Feminino</span>
+                                </div>
+                                <div class="type">
+                                    <input type="radio" name="genero" value="Masculino">
+                                    <span>Indefinido</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="inputColunm">
+                            <p>Data de nascimento</p>
+                            <div class="inputIcons ">
+                                <input type="date" name="born" class="born">
+                                <i class="fa-solid fa-calendar-days"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="inputFlex ">
+                        <div class="inputColunm inputPhone">
+                            <p>Telefone</p>
+                            <div class="inputIcons">
+                                <input type="tel" name="number" placeholder="(__) _____-____">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                        </div>
+                        <div class="inputColunm inputCpf">
+                            <p>CPF</p>
+                            <div class="inputIcons">
+                                <input class="cpf" type="tex" name="cpf" placeholder="xxx.xxx.xxx-xx" pattern="\d{3}\.?\d{3}\.?\d{3}-?\d{2}" min="11" max="14">
+                                <i class="fa-solid fa-id-card"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="inputSubmit">
+                        <input type="submit" value="Criar conta">
+                    </div>
+                    <div class="inputForgotlink">
+                        <p>Já tem uma conta basta clicar<a href="index.html">aqui para voltar</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
